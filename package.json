@@ -1,0 +1,24 @@
+{
+  "name": "home-rtadmin-documents-luciano",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.3.5",
+    "mkdirp": "^3.0.1",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-astro": "^0.31.4"
+  }
+}
