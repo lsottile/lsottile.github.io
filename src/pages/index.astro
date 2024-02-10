@@ -2,10 +2,27 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Luciano Sottile">
 	<main>
-		<div>
-			<p class="text-3xl text-white">Luciano</p>
+		<div class="h-screen
+			w-screen
+			flex
+			flex-col
+			bg-gray-800
+			items-center">
+			<p class="font-sans text-white text-4xl pt-10">Hey! I'm Luciano</p>
+			<p class="font-sans text-gray-300 text-2xl pt-5">
+				I'm a web developer currently working with React, Node and
+				Next.js
+			</p>
+			<p class="font-sans text-gray-400 text-xl pt-5">
+				Since I don't have any articles to share, here's a picture of
+				Walter Matthau and Jack Lemmon
+			</p>
+			<img
+				src="https://m.media-amazon.com/images/M/MV5BNTU4MjMzMDItY2RhNy00MWJjLTgzYjctMTg0NDEyMzQ2NDk5XkEyXkFqcGdeQXVyMDUyOTUyNQ@@._V1_.jpg"
+				class="pt-5"
+			/>
 		</div>
 	</main>
 </Layout>
